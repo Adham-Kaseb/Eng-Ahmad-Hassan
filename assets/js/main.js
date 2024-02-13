@@ -13,6 +13,8 @@
     }
   }
 
+
+
   /**
    * Easy event listener function
    */
@@ -261,3 +263,19 @@
   new PureCounter();
 
 })()
+
+    /**
+   * Scroll reveal library
+   */
+    const sr = ScrollReveal({
+      origin: "top",
+      distance: "40px",
+      opacity: 1,
+      scale: 1.1,
+      duration: 2500,
+      delay: 300,
+      //  reset: 'true',
+    });
+    
+    sr.reveal(`.sr1`);
+    sr.reveal(`.sr2`, {rotate: {z: -15}});
