@@ -88,8 +88,6 @@
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('body').classList.toggle('mobile-nav-active')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
   })
 
   /**
@@ -269,7 +267,7 @@
    */
     const sr = ScrollReveal({
       origin: "top",
-      distance: "40px",
+      distance: "30px",
       opacity: 1,
       scale: 1.1,
       duration: 2500,
