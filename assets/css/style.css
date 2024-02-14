@@ -272,6 +272,13 @@ h6 {
   }
 }
 
+@media (max-width: 590px) {
+  #hero {
+    background: url("../img/home-bg-mobile.png") no-repeat;
+    background-size: cover;
+  }
+}
+
 #hero:before {
   content: "";
   background: rgba(255, 255, 255, 0);
