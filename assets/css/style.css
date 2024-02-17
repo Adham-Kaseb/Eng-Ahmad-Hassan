@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  overflow-x: hidden;
 }
 
 a {
@@ -24,6 +25,10 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+::-webkit-scrollbar {width: 10px;}
+::-webkit-scrollbar-thumb {background-color: #1060ab;}
+::-webkit-scrollbar-track {background-color: transparent}
 
 /*-----------------------------------*\
   || BACK TO TOP ||
@@ -760,8 +765,8 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  padding: 30px 30px 10px 30px;
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.344);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -778,8 +783,8 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+.portfolio-details .portfolio-info ul li {
+  margin-top: 20px;
 }
 
 .portfolio-details .portfolio-description {
